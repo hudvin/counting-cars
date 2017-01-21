@@ -6,11 +6,11 @@ root_dir = os.path.dirname(os.path.abspath(__file__))
 dataset = {
     "occupied": {
         "id": 0,
-        "path": "/home/kontiki/Downloads/datasets/cars/pklot_small/Occupied"
+        "path": "datasets/train/orig/pklot_small/occupied"
     },
     "empty": {
         "id": 1,
-        "path": "/home/kontiki/Downloads/datasets/cars/pklot_small/Empty"
+        "path": "datasets/train/orig/pklot_small/empty"
     }
 
 }
@@ -24,8 +24,8 @@ model = {
 }
 
 val_dataset = {
-    "occupied": root_dir + "/" + "test/test_data/occupied",
-    "empty": root_dir + "/" + "test_data/empty"
+    "occupied": root_dir + "/" + "datasets/val/occupied",
+    "empty": root_dir + "/" + "datasets/val/empty"
 }
 
 format = lambda dict_data: json.dumps(dict_data, indent=4, sort_keys=True)

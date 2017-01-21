@@ -43,8 +43,8 @@ def create_db(lmdb_path, data, mapping):
 IMAGE_WIDTH = 224
 IMAGE_HEIGHT = 224
 
-train_lmdb = 'dataset/train_lmdb'
-test_lmdb = 'dataset/test_lmdb'
+train_lmdb = 'datasets/train/lmdb/train'
+test_lmdb = 'datasets/train/lmdb/test'
 
 shutil.rmtree(train_lmdb, ignore_errors=True)
 shutil.rmtree(test_lmdb, ignore_errors=True)
