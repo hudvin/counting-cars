@@ -1,2 +1,0 @@
-occupied_dir=/home/kontiki/Downloads/datasets/cars/pklot_small/Occupied
-empty_dir=/home/kontiki/Downloads/datasets/cars/pklot_small/Empty
